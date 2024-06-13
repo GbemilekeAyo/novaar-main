@@ -1,0 +1,266 @@
+.team{
+    width: 100%;
+    height: 100%;
+}
+
+.team-container{
+    position: relative;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.team-container > h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.team-flex{
+    margin-top: 5%;
+}
+
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 250px;
+}
+
+ .team-right , .team-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+
+ .team-left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+ }
+
+ .team-left p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
+ }
+
+ .team-right{
+    flex-basis: 40%;
+ }
+
+ .team-right span{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+ .team-right span svg{
+    font-size: 1.7rem;
+    background-color: #eeeded;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+
+ /*======== MEDIA QUARIES FOR SMALL SCREENS========*/
+ @media screen and (max-width:624px){
+   .team-row{
+    height: 180px;
+   }
+
+    
+    .team-left img {
+       width: 50px;
+       height: 50px;
+      }
+    
+    .team-left p {
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+    .team-right p{
+        font-size: 0.9rem;
+    }
+
+    .team-right  {
+        flex-basis:80%;
+    }
+
+    .team-right span{
+        margin-left: 10%;
+        gap: 5px;
+    }
+ }
+
+
+ /*========= STYLES FOR INNOVATIVE SECTION========= */
+
+ .innovative{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/jumb.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+ .innovative-container{
+    position: relative;
+    padding: 5%;
+ }
+
+ .innovative-container > h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #ffffff;
+ }
+
+ .innovative-container p{
+    width: 50%;
+    color: #ffffff;
+ }
+
+ .innovative-container {
+    margin-top: 5%;
+ }
+
+
+.innovative-container .extra{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     width: 18%;
+    text-align: left;
+}
+
+.innovative-container .extra h1{
+   color: #ffffff;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.innovative-container .extra svg{
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 6px;
+    font-size: 2rem;
+    border-radius: 50px;
+    margin-left: 50%;
+}
+ 
+
+
+/*=========== MEDIA QUARIES FOR LARGE SCREENS ============*/
+
+@media screen and (max-width:1024px){
+    .innovative-container h1{
+        font-size: 2rem;
+    }
+
+    .innovative-container p{
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .innovative-container .extra{
+        width: 40%;
+       
+    }
+}
+
+
+/*=========== MEDIA QUARIES FOR SMALL SCREENS ============*/
+
+@media screen and (max-width:1024px){
+    .innovative-container h1{
+        font-size: 1.6rem;
+    }
+
+    .innovative-container p{
+        width: 90%;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .innovative-container .extra{
+        margin-top: 30px;
+        width: 90%;
+       
+    }
+}
+
+/*============= CONTACT SECTION STYLES=======*/
+.contact{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.contact > h1{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contact-container{
+    margin-top: 3px;
+}
+
+.contact-container h1{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+
+.contact-container a{
+    background-color: #000;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    
+}
+
+
+/*======== MEDIA QUARIES FOR LARGE SCREENS ========*/
+
+@media screen and (max-width:1024px){
+    .contact-container h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-container a{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
+/*======== MEDIA QUARIES FOR SMALLSCREENS ========*/
+
+@media screen and (max-width:624px){
+    .contact-container{
+        padding: 5%;
+    }
+    .contact-container h1{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .contact-container a{
+        font-size: 0.5rem;
+        margin-bottom: 2rem;
+    }
+}
